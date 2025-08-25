@@ -36,4 +36,12 @@ contract ComplicatedBank{
     function getBalance() public view returns (uint256) {
         return balances[msg.sender];
     }
+    function totallnterestPerYear() public view returns (uint256) {
+        uint256 total = 0;
+        for (uint256 i = 0;i < accounts.length;i++ ){
+            address account = accounts[i] ;
+            total +=  calculateInterest(account);
+        }
+        return total;
+    }
 }

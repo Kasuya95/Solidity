@@ -89,6 +89,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "totallnterestPerYear",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -130,11 +143,11 @@
 	},
 	"sources": {
 		"contracts/ComplicatedBank.sol": {
-			"keccak256": "0x090675696432dabe8c882f47e0def389240b3d5e8c0590c9382d30ad59e270dc",
+			"keccak256": "0x07527732187bd214500e4bd353755bf1d74d1e91e67a7739ab4176f65511634e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9b13202973967694527eac63a2e24eae44a63258bf2ad3a0b14aef59c0a2a16a",
-				"dweb:/ipfs/QmU46C1UTofp9dCh1XAWdfNrzY6y8cuEt3vhP6yXxU6wiQ"
+				"bzz-raw://2cf7af33560e36c37cf2200a37cb96954c8aa3beb89d722e1e329e1dd0f44614",
+				"dweb:/ipfs/Qmf16g9J8hpAvPgMEqgY7JV52w5oA6W2gRjMkgVCifKScH"
 			]
 		}
 	},
